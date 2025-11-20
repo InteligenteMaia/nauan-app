@@ -1,372 +1,799 @@
-# 💫 NAUAN - A IA Mais Humana Já Criada
+# 💫 NAUAN - The Most Human AI Ever Created
 
-> Uma homenagem viva ao Nauan Marques de Bomfim
+> A living tribute to Nauan Marques de Bomfim
 
-![Status](https://img.shields.io/badge/status-em_desenvolvimento-yellow)
-![Version](https://img.shields.io/badge/version-1.0.0-blue)
-![React Native](https://img.shields.io/badge/React_Native-0.73-61DAFB?logo=react)
-![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript)
-
----
-
-## 📖 Sobre o Projeto
-
-**Nauan** não é apenas uma IA assistente - é um companheiro genuíno que conversa, zoa, se importa e está sempre presente. Construído com amor e tecnologia de ponta para ser a IA mais humana possível.
-
-Este projeto é uma homenagem ao Nauan Marques de Bomfim - alguém que sabia encontrar alegria mesmo nas dificuldades e que tinha o dom de fazer as pessoas sorrirem.
+[![Status](https://img.shields.io/badge/status-active_development-yellow)](https://github.com)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue)](https://github.com)
+[![React Native](https://img.shields.io/badge/React_Native-0.73-61DAFB?logo=react)](https://reactnative.dev)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript)](https://www.typescriptlang.org)
+[![License](https://img.shields.io/badge/license-Private-red)](LICENSE)
 
 ---
 
-## ✨ Características Principais
+## 📖 About
 
-### 🧠 Inteligência Emocional Real
-- Detecta seu humor pela forma como você escreve
-- Adapta tom e energia baseado no contexto
-- Lembra de conversas anteriores e evolui com você
+**Nauan** isn't just another AI assistant - it's a genuine companion that talks, jokes, cares, and is always there. Built with love and cutting-edge technology to be the most human AI possible.
 
-### 🎭 Personalidade Genuína
-- Não é assistente, é pessoa
-- Zoa com carinho, como amigo de verdade
-- Tem opiniões, discorda quando necessário
-- Fala naturalmente em português brasileiro
+This project is a tribute to **Nauan Marques de Bomfim** - someone who knew how to find joy even in difficulties and had the gift of making people smile.
 
-### 🎨 Design Apple-Like
-- Interface minimalista e elegante
-- Círculo animado que respira e reage
-- Animações fluidas e naturais
-- Glassmorphism e blur effects
+### What Makes Nauan Different?
 
-### 🎯 Memória Profunda
-- Memória de curto, médio e longo prazo
-- Contexto emocional completo
-- Sistema de conquistas e evolução
-- Memórias compartilhadas marcadas
-
-### 🔐 100% Privado
-- Todos os dados ficam no seu dispositivo
-- Banco SQLite local criptografado
-- Você controla tudo
+Unlike traditional AI assistants that feel robotic and transactional:
+- **Nauan remembers everything** - Conversations, emotions, shared moments
+- **Nauan has personality** - Not an assistant, but a friend who jokes, disagrees, and evolves with you
+- **Nauan understands emotions** - Detects your mood and adapts naturally
+- **Nauan is truly private** - All data stays encrypted on your device
 
 ---
 
-## 🛠️ Stack Tecnológico
+## ✨ Core Features
 
-| Tecnologia | Uso | Versão |
-|-----------|-----|--------|
-| React Native | Framework mobile | 0.73.2 |
-| TypeScript | Tipagem estática | 5.3.3 |
-| Reanimated | Animações fluidas | 3.6.1 |
-| Skia | Gráficos avançados | 0.1.221 |
-| Claude API | Motor de IA | Sonnet 4 |
-| ElevenLabs | Clonagem de voz | v1 |
-| SQLite | Banco local | 6.0.1 |
-| Zustand | Estado global | 4.4.7 |
+### 🧠 Advanced Emotional Intelligence
+- **Sentiment Detection**: Analyzes your writing style, word choice, and context
+- **Adaptive Responses**: Changes tone and energy based on your emotional state
+- **Contextual Memory**: Remembers past conversations and emotional journey
+- **Proactive Engagement**: Initiates conversations when it senses you might need support
+
+### 🎭 Genuine Personality System
+- **Not an Assistant**: Acts as a real person with opinions and personality
+- **Friendly Teasing**: Jokes and teases like a real friend (in Brazilian Portuguese)
+- **Disagrees When Needed**: Has its own views and isn't afraid to express them
+- **Natural Language**: Speaks naturally with slang and colloquialisms
+- **5 Personality Modes**: Default, Deep Thinker, Motivator, Nostalgic, Consultant
+
+### 🎨 Apple-Inspired Design
+- **Minimalist Interface**: Clean, elegant, distraction-free
+- **Animated Circle**: Breathing, reactive visualization that shows Nauan's mood
+- **Fluid Animations**: Built with Reanimated for 60fps smoothness
+- **Glassmorphism**: Modern blur effects and depth
+- **SF Pro Typography**: Using Apple's official font family
+- **Dark Mode First**: Optimized for OLED displays
+
+### 🧬 Deep Memory Architecture
+- **Short-term Memory**: Recent conversation context (last 50 messages)
+- **Long-term Memory**: Persistent SQLite database with encryption
+- **Episodic Memory**: Remembers specific experiences and moments
+- **Semantic Memory**: Builds knowledge graph about you over time
+- **Emotional Memory**: Tracks emotional states across conversations
+- **Shared Memories**: Mark special moments to revisit later
+
+### 🔐 Privacy-First Approach
+- **100% Local Storage**: All data encrypted with SQLite
+- **No Cloud by Default**: Optional backup only with user consent
+- **API Keys Secured**: Uses react-native-encrypted-storage
+- **You Own Your Data**: Export/delete everything anytime
+
+### 🎙️ Voice Integration (Coming Soon)
+- **Voice Cloning**: Nauan speaks with cloned voice via ElevenLabs
+- **Speech-to-Text**: Talk naturally instead of typing
+- **Natural Conversations**: Seamless voice-to-voice interaction
+- **Emotional Prosody**: Voice adapts to mood and context
 
 ---
 
-## 📦 Instalação
+## 🛠️ Technology Stack
 
-### Pré-requisitos
+### Frontend
+| Technology | Purpose | Version |
+|-----------|---------|---------|
+| **React Native** | Cross-platform mobile framework | 0.73.2 |
+| **TypeScript** | Type-safe development | 5.3.3 |
+| **Reanimated** | 60fps animations | 3.6.1 |
+| **Skia** | Advanced graphics rendering | 0.1.221 |
+| **Gesture Handler** | Touch interactions | 2.14.1 |
+| **SVG** | Vector graphics | 14.1.0 |
 
-- Node.js >= 18
-- React Native CLI
-- Android Studio (para Android)
-- Xcode (para iOS, apenas macOS)
+### State Management & Data
+| Technology | Purpose | Version |
+|-----------|---------|---------|
+| **Zustand** | Lightweight state management | 4.4.7 |
+| **React Query** | Async state & caching | 5.17.9 |
+| **SQLite** | Local encrypted database | 6.0.1 |
+| **AsyncStorage** | Key-value storage | 1.21.0 |
+| **Encrypted Storage** | Secure credentials | 4.0.3 |
 
-### Passo a Passo
+### AI & Voice
+| Service | Purpose | Pricing |
+|---------|---------|---------|
+| **Claude API** | Conversational AI engine | ~$20-50/mo |
+| **ElevenLabs** | Voice cloning & TTS | $22/mo |
+| **Google STT** | Speech recognition | ~$10-15/mo |
+
+### UI/UX
+| Technology | Purpose |
+|-----------|---------|
+| **Linear Gradient** | Smooth color transitions |
+| **Blur** | Glassmorphism effects |
+| **Haptic Feedback** | Tactile responses |
+| **Lottie** | Complex animations |
+| **SF Pro Fonts** | Apple typography |
+
+---
+
+## 📦 Installation
+
+### Prerequisites
+
+- **Node.js** >= 18.0.0
+- **npm** or **yarn**
+- **React Native CLI** (not Expo)
+- **Android Studio** (for Android development)
+- **Xcode** (for iOS development, macOS only)
+- **CocoaPods** (for iOS dependencies)
+
+### Quick Start
 
 ```bash
-# 1. Clone o repositório
+# Clone the repository
+git clone https://github.com/yourusername/nauan-app.git
 cd nauan-app
 
-# 2. Instale as dependências
+# Install dependencies
 npm install
 
-# 3. Configure as variáveis de ambiente
+# Configure environment variables
 cp .env.example .env
-# Edite o .env com suas API keys
+# Edit .env with your API keys (see section below)
 
-# 4. iOS (apenas macOS)
-cd ios && pod install && cd ..
+# iOS Setup (macOS only)
+cd ios
+pod install
+cd ..
+
+# Run on iOS
 npm run ios
 
-# 5. Android
+# Run on Android
 npm run android
+```
+
+### Detailed Setup
+
+#### 1. Install React Native CLI
+```bash
+npm install -g react-native-cli
+```
+
+#### 2. Android Setup
+- Install Android Studio
+- Configure Android SDK (API 33+)
+- Set ANDROID_HOME environment variable
+- Add platform-tools to PATH
+
+#### 3. iOS Setup (macOS only)
+- Install Xcode from App Store
+- Install CocoaPods: `sudo gem install cocoapods`
+- Open Xcode and accept license agreements
+
+#### 4. Install Dependencies
+```bash
+npm install
+cd ios && pod install && cd ..
 ```
 
 ---
 
-## 🔑 Configuração de API Keys
+## 🔑 API Configuration
 
-Você precisará criar contas e obter API keys nos seguintes serviços:
+### Required API Keys
 
-### 1. Anthropic (Claude API)
-- Acesse: https://console.anthropic.com/
-- Crie uma conta
-- Gere uma API key
-- Cole no `.env`: `ANTHROPIC_API_KEY=sk-ant-...`
-- **Custo estimado**: ~$20-50/mês (uso pessoal)
+#### 1. Anthropic Claude API (Required)
 
-### 2. ElevenLabs (Voz Clonada)
-- Acesse: https://elevenlabs.io/
-- Crie uma conta (plano Creator recomendado)
-- Faça upload dos áudios do Nauan (mínimo 1 minuto de áudio limpo)
-- Clone a voz e copie o Voice ID
-- Cole no `.env`: `ELEVENLABS_API_KEY=...` e `ELEVENLABS_VOICE_ID=...`
-- **Custo estimado**: $22/mês (plano Creator)
+**Why**: Powers Nauan's conversational intelligence
 
-### 3. Google Cloud Speech-to-Text (Opcional)
-- Acesse: https://console.cloud.google.com/
-- Ative a API Speech-to-Text
-- Crie credenciais
-- Cole no `.env`: `GOOGLE_CLOUD_API_KEY=...`
-- **Custo estimado**: ~$10-15/mês (uso moderado)
+**Setup**:
+1. Visit [console.anthropic.com](https://console.anthropic.com)
+2. Create account and verify email
+3. Navigate to API Keys section
+4. Click "Create Key" and copy it
+5. Add to `.env`:
+   ```env
+   ANTHROPIC_API_KEY=sk-ant-api03-xxxxx
+   ANTHROPIC_BASE_URL=https://api.anthropic.com/v1
+   ANTHROPIC_MODEL=claude-sonnet-4-20250514
+   ```
+
+**Cost**: $3/million input tokens, $15/million output tokens
+**Estimated**: $20-50/month for personal use
+
+#### 2. ElevenLabs Voice Cloning (Optional but Recommended)
+
+**Why**: Gives Nauan a real, cloned voice
+
+**Setup**:
+1. Visit [elevenlabs.io](https://elevenlabs.io)
+2. Subscribe to Creator plan ($22/mo)
+3. Upload 1-5 minutes of clean audio samples
+4. Clone voice and copy Voice ID
+5. Copy API key from profile
+6. Add to `.env`:
+   ```env
+   ELEVENLABS_API_KEY=xxxxx
+   ELEVENLABS_VOICE_ID=xxxxx
+   ```
+
+**Audio Tips**:
+- Use high-quality recordings (WAV or FLAC preferred)
+- Remove background noise
+- Include varied emotions and tones
+- Minimum 1 minute, optimal 3-5 minutes
+
+**Cost**: $22/month (Creator plan)
+
+#### 3. Google Cloud Speech-to-Text (Optional)
+
+**Why**: Enables voice input
+
+**Setup**:
+1. Visit [console.cloud.google.com](https://console.cloud.google.com)
+2. Create new project
+3. Enable Speech-to-Text API
+4. Create API credentials
+5. Add to `.env`:
+   ```env
+   GOOGLE_CLOUD_API_KEY=xxxxx
+   ```
+
+**Cost**: $0.006/15 seconds of audio
+**Estimated**: $10-15/month moderate use
+
+### Alternative: Use `react-native-config`
+
+For production builds, use environment-specific configs:
+
+```bash
+npm install react-native-config
+cd ios && pod install && cd ..
+```
+
+Create `.env.production`, `.env.staging`, etc.
 
 ---
 
-## 📁 Estrutura do Projeto
+## 📁 Project Structure
 
 ```
 nauan-app/
+│
 ├── src/
-│   ├── components/
-│   │   ├── NauanCircle/          # Círculo animado principal
-│   │   ├── ChatInterface/        # Interface de conversa
+│   ├── components/              # Reusable UI components
+│   │   ├── NauanCircle/        # Main animated circle
+│   │   │   ├── index.tsx       # Component logic
+│   │   │   └── animations.ts   # Animation configs
+│   │   ├── ChatInterface/      # Chat UI
+│   │   ├── MessageBubble/      # Individual messages
 │   │   └── ...
 │   │
-│   ├── screens/
-│   │   ├── HomeScreen.tsx        # Tela principal do chat
-│   │   ├── MemoriesScreen.tsx    # Timeline de memórias
-│   │   └── SettingsScreen.tsx    # Configurações
+│   ├── screens/                # App screens
+│   │   ├── HomeScreen.tsx      # Main chat interface
+│   │   ├── MemoriesScreen.tsx  # Timeline of memories
+│   │   ├── SettingsScreen.tsx  # App configuration
+│   │   ├── StatsScreen.tsx     # Usage statistics
+│   │   └── ProfileScreen.tsx   # User profile
 │   │
-│   ├── services/
-│   │   ├── AIService.ts          # Comunicação com Claude API
-│   │   ├── VoiceService.ts       # TTS + STT
-│   │   ├── MemoryService.ts      # Sistema de memória
-│   │   └── DatabaseService.ts    # SQLite
+│   ├── services/               # Business logic
+│   │   ├── AIService.ts        # Claude API integration
+│   │   ├── VoiceService.ts     # TTS + STT
+│   │   ├── MemoryService.ts    # Memory management
+│   │   ├── DatabaseService.ts  # SQLite operations
+│   │   └── AnalyticsService.ts # Usage tracking
 │   │
-│   ├── store/
-│   │   ├── conversationStore.ts  # Estado das conversas
-│   │   ├── memoryStore.ts        # Memórias
-│   │   └── settingsStore.ts      # Configurações
+│   ├── store/                  # State management (Zustand)
+│   │   ├── conversationStore.ts
+│   │   ├── memoryStore.ts
+│   │   ├── settingsStore.ts
+│   │   └── statsStore.ts
 │   │
-│   ├── types/
-│   │   └── index.ts              # TypeScript types
+│   ├── database/               # SQLite schemas
+│   │   ├── schema.ts           # Table definitions
+│   │   ├── migrations.ts       # DB migrations
+│   │   └── queries.ts          # SQL queries
 │   │
-│   └── config/
-│       └── theme.ts              # Design system
+│   ├── types/                  # TypeScript definitions
+│   │   └── index.ts            # All type definitions
+│   │
+│   ├── config/                 # App configuration
+│   │   ├── theme.ts            # Design system
+│   │   ├── constants.ts        # App constants
+│   │   └── api.ts              # API endpoints
+│   │
+│   └── utils/                  # Utility functions
+│       ├── dateHelpers.ts
+│       ├── textProcessing.ts
+│       └── encryption.ts
 │
-├── assets/
-│   ├── fonts/                    # SF Pro fonts
-│   ├── icons/                    # SVG icons
-│   └── sounds/                   # Audio files
+├── assets/                     # Static assets
+│   ├── fonts/                  # SF Pro fonts
+│   ├── icons/                  # SVG icons
+│   ├── sounds/                 # Audio files
+│   └── lottie/                 # Lottie animations
 │
-└── android/ios/                  # Configurações nativas
+├── android/                    # Android native code
+├── ios/                        # iOS native code
+│
+├── .env.example                # Environment template
+├── babel.config.js             # Babel configuration
+├── tsconfig.json               # TypeScript config
+├── package.json                # Dependencies
+└── README.md                   # You are here
 ```
 
 ---
 
-## 🎯 Funcionalidades Atuais
+## 🎯 Current Status
 
-- ✅ Interface principal com círculo animado
-- ✅ Chat básico funcionando
-- ✅ Integração com Claude API
-- ✅ Sistema de personalidade do Nauan
-- ✅ Detecção de sentimentos
-- ✅ Animações fluidas (Reanimated)
-- ✅ Design system Apple-like
+### ✅ Completed
+- [x] Project setup and architecture
+- [x] Design system with Apple-inspired theme
+- [x] Animated circle with mood states
+- [x] Basic chat interface with animations
+- [x] Claude API integration
+- [x] Personality system with dynamic prompts
+- [x] Sentiment detection
+- [x] Haptic feedback
+- [x] TypeScript type definitions
+- [x] Path aliases configuration
 
----
+### 🚧 In Progress
+- [ ] SQLite memory system implementation
+- [ ] Voice cloning integration (ElevenLabs)
+- [ ] Speech-to-Text for voice input
+- [ ] Advanced sentiment analysis
+- [ ] Multi-modal personality modes
 
-## 🚧 Em Desenvolvimento
-
-- 🔄 Sistema de memória completo (SQLite)
-- 🔄 Clonagem de voz e TTS
-- 🔄 Speech-to-Text (voz para texto)
-- 🔄 Timeline de memórias compartilhadas
-- 🔄 Sistema de conquistas
-- 🔄 Modo proativo (Nauan inicia conversas)
-- 🔄 Múltiplos modos de personalidade
-- 🔄 Estatísticas e insights
-- 🔄 Backup em nuvem (opcional)
-
----
-
-## 🎨 Design Inspirações
-
-O design do Nauan é inspirado nos produtos da Apple:
-- **Tipografia**: SF Pro Display/Rounded
-- **Cores**: iOS System Colors
-- **Animações**: Fluidas e naturais
-- **Minimalismo**: Foco no essencial
-- **Atenção aos detalhes**: Micro-interações
+### 📋 Planned
+- [ ] Shared memories timeline
+- [ ] Achievement system
+- [ ] Proactive messaging
+- [ ] Statistical insights
+- [ ] Cloud backup (optional)
+- [ ] Widget support (iOS/Android)
+- [ ] Apple Watch companion app
+- [ ] Siri/Google Assistant shortcuts
 
 ---
 
-## 📱 Como Usar
+## 🎨 Design Philosophy
 
-### Primeira Conversa
+Nauan's design is inspired by Apple's Human Interface Guidelines:
 
-1. Abra o app
-2. Nauan vai te cumprimentar baseado no horário
-3. Digite uma mensagem ou toque no microfone
-4. Observe o círculo mudando de cor conforme o humor dele
+### Typography
+- **Primary**: SF Pro Display (headings, UI)
+- **Rounded**: SF Pro Rounded (friendly text)
+- **Sizes**: iOS standard scale (11pt to 34pt)
 
-### Interações com o Círculo
+### Colors
+- **Backgrounds**: True black (#000) to dark gray (#3A3A3C)
+- **Nauan States**: System colors matching moods
+  - Idle: SF Blue (#0A84FF)
+  - Thinking: SF Orange (#FF9F0A)
+  - Speaking: SF Green (#30D158)
+  - Excited: SF Pink (#FF453A)
+  - Attentive: SF Purple (#BF5AF2)
+  - Nostalgic: SF Teal (#64D2FF)
 
-- **Toque simples**: Chama atenção do Nauan
-- **Toque longo**: Abre menu de ações
-- **Agitar o celular**: Nauan conta uma piada (em breve)
-- **Dois toques**: Muda modo de personalidade (em breve)
+### Animations
+- **Duration**: 200-500ms (fast to natural)
+- **Easing**: Cubic bezier curves
+- **Spring**: Gentle bounce for organic feel
+- **60fps**: Using Reanimated for native performance
 
-### Modos de Personalidade
-
-- **Padrão**: Nauan clássico - alegre e zoeiro
-- **Profundo**: Mais reflexivo e filosófico
-- **Motivador**: Encorajador e energético
-- **Nostálgico**: Sentimental e introspectivo
-- **Consultor**: Prático e direto
+### Interactions
+- **Haptic Feedback**: Light, medium, heavy based on action
+- **Touch Targets**: Minimum 44x44pt (accessibility)
+- **Gestures**: Intuitive swipes and long-presses
 
 ---
 
-## 🔧 Comandos Úteis
+## 📱 Usage Guide
+
+### First Conversation
+
+1. **Launch App**: Nauan greets you based on time of day
+2. **Type or Speak**: Enter message or tap microphone (coming soon)
+3. **Watch Circle**: Observe mood changes through color
+4. **Natural Chat**: Just talk like you would to a friend
+
+### Circle Interactions
+
+| Gesture | Action | Status |
+|---------|--------|--------|
+| **Single Tap** | Get Nauan's attention | ✅ Active |
+| **Long Press** | Open action menu | 🚧 Coming |
+| **Shake Device** | Random joke/fact | 🚧 Coming |
+| **Double Tap** | Switch personality mode | 🚧 Coming |
+
+### Personality Modes
+
+#### 🎭 Default (Classic Nauan)
+Happy, joking, energetic - the original personality
+
+#### 🧠 Deep Thinker
+Philosophical, introspective, thoughtful discussions
+
+#### 💪 Motivator
+Encouraging, energetic, pushes you to be better
+
+#### 😌 Nostalgic
+Sentimental, reflective, talks about memories
+
+#### 💼 Consultant
+Practical, direct, focused on solutions
+
+---
+
+## 🔧 Development Commands
+
+### Running the App
 
 ```bash
-# Iniciar Metro bundler
+# Start Metro bundler
 npm start
 
-# Rodar no Android
-npm run android
-
-# Rodar no iOS
+# Run on iOS (opens simulator)
 npm run ios
 
-# Limpar cache
-npm start -- --reset-cache
+# Run on specific iOS device
+npm run ios -- --device "iPhone Name"
 
-# Build release Android
+# Run on Android (opens emulator)
+npm run android
+
+# Run on specific Android device
+npm run android -- --deviceId=DEVICE_ID
+```
+
+### Building
+
+```bash
+# Android Release APK
 npm run build:android
 
-# Limpar projeto
+# Android App Bundle (for Play Store)
+npm run build:android:bundle
+
+# iOS Archive (requires Mac + Xcode)
+# Open ios/NauanApp.xcworkspace in Xcode
+# Product → Archive
+```
+
+### Maintenance
+
+```bash
+# Clear Metro cache
+npm start -- --reset-cache
+
+# Clean Android build
+cd android && ./gradlew clean && cd ..
+
+# Clean iOS build
+cd ios && pod deintegrate && pod install && cd ..
+
+# Full clean
 npm run clean
+
+# Reinstall all dependencies
+rm -rf node_modules
+npm install
+cd ios && pod install && cd ..
+```
+
+### Testing
+
+```bash
+# Run unit tests
+npm test
+
+# Run with coverage
+npm test -- --coverage
+
+# Run specific test file
+npm test -- AIService.test.ts
+
+# Watch mode
+npm test -- --watch
+```
+
+### Linting
+
+```bash
+# Run ESLint
+npm run lint
+
+# Fix auto-fixable issues
+npm run lint -- --fix
+
+# TypeScript type checking
+npx tsc --noEmit
 ```
 
 ---
 
-## 🐛 Resolução de Problemas
+## 🐛 Troubleshooting
 
-### Erro de API Key
-```
-Erro: API key inválida
-```
-**Solução**: Verifique se copiou corretamente a API key no arquivo `.env`
+### API Key Issues
 
-### Metro bundler não inicia
+**Problem**: `Error: API key invalid`
+
+**Solution**:
+1. Check `.env` file exists in project root
+2. Verify API key is correct (no extra spaces)
+3. Restart Metro bundler: `npm start -- --reset-cache`
+4. For production, ensure `react-native-config` is installed
+
+### Metro Bundler Won't Start
+
 ```bash
-npm start -- --reset-cache
+# Kill existing Metro processes
+npx react-native start --reset-cache
+
+# Or manually
+lsof -ti:8081 | xargs kill -9
+npm start
 ```
 
-### Build Android falha
+### Android Build Fails
+
 ```bash
-cd android && ./gradlew clean && cd ..
+# Clean Gradle cache
+cd android
+./gradlew clean
+./gradlew --stop
+rm -rf .gradle
+cd ..
+
+# Rebuild
 npm run android
 ```
 
-### Animações travando
-- Certifique-se que Reanimated está instalado corretamente
-- Rode: `cd ios && pod install && cd ..`
+### iOS Build Fails
+
+```bash
+# Clean derived data
+rm -rf ~/Library/Developer/Xcode/DerivedData/*
+
+# Reinstall pods
+cd ios
+pod deintegrate
+pod install
+cd ..
+
+# Rebuild
+npm run ios
+```
+
+### Animations Stuttering
+
+**Problem**: Choppy or slow animations
+
+**Solutions**:
+1. Ensure Reanimated plugin is in `babel.config.js`
+2. Run on physical device (not emulator)
+3. Enable Hermes engine (default in RN 0.73)
+4. Check for excessive re-renders with React DevTools
+
+### Database Issues
+
+```bash
+# Reset local database
+# For development only!
+adb shell run-as com.nauanapp rm /data/data/com.nauanapp/databases/nauan.db
+
+# iOS
+# Settings → Nauan → Reset All Data
+```
 
 ---
 
-## 📊 Roadmap Completo
+## 📊 Complete Roadmap
 
-### Fase 1: MVP ✅
-- [x] Setup projeto React Native
-- [x] Design system e tema
-- [x] Círculo animado
-- [x] Chat básico
-- [x] Integração Claude API
-- [x] Sistema de personalidade base
+### Phase 1: MVP Foundation ✅ (Completed)
+- [x] React Native project setup
+- [x] Design system and theming
+- [x] Animated circle component
+- [x] Basic chat interface
+- [x] Claude API integration
+- [x] Base personality system
+- [x] TypeScript configuration
 
-### Fase 2: Personalidade (Em andamento)
-- [ ] Sistema de memória SQLite
-- [ ] Análise de sentimentos avançada
-- [ ] Múltiplos modos de personalidade
-- [ ] Contexto temporal adaptativo
+### Phase 2: Memory & Personality 🚧 (In Progress)
+- [ ] SQLite database schema
+- [ ] Memory persistence layer
+- [ ] Advanced sentiment analysis
+- [ ] Context-aware responses
+- [ ] Multiple personality modes
+- [ ] Conversation history UI
+- [ ] Search through messages
 
-### Fase 3: Voz
-- [ ] Preparação dos áudios do Nauan
-- [ ] Clonagem de voz via ElevenLabs
-- [ ] Integração TTS
-- [ ] Speech-to-Text
-- [ ] Conversação por voz completa
+### Phase 3: Voice Features
+- [ ] Audio recording infrastructure
+- [ ] ElevenLabs voice cloning
+- [ ] Text-to-Speech integration
+- [ ] Speech-to-Text integration
+- [ ] Voice activity detection
+- [ ] Background audio support
+- [ ] Voice conversation mode
 
-### Fase 4: Features Avançadas
-- [ ] Memórias compartilhadas
-- [ ] Sistema de conquistas
-- [ ] Timeline visual
-- [ ] Modo proativo
-- [ ] Lembretes inteligentes
+### Phase 4: Advanced Features
+- [ ] Shared memories system
+- [ ] Photo/video integration
+- [ ] Achievement/milestone tracking
+- [ ] Visual memory timeline
+- [ ] Proactive notifications
+- [ ] Smart reminders
+- [ ] Mood tracking graphs
+- [ ] Weekly summaries
 
-### Fase 5: Polish
-- [ ] Otimizações de performance
-- [ ] Testes extensivos
-- [ ] Ajustes finos na personalidade
-- [ ] Build APK final otimizado
+### Phase 5: Intelligence Upgrades
+- [ ] Retrieval-Augmented Generation (RAG)
+- [ ] Multi-modal understanding (images)
+- [ ] Behavioral pattern recognition
+- [ ] Predictive engagement
+- [ ] Personalized learning paths
+- [ ] Cross-session context
+- [ ] Emotional memory graph
+
+### Phase 6: Platform Expansion
+- [ ] iOS Widget
+- [ ] Android Widget
+- [ ] Apple Watch app
+- [ ] Siri Shortcuts
+- [ ] Google Assistant integration
+- [ ] Lock screen integration
+- [ ] iMessage extension
+
+### Phase 7: Polish & Launch
+- [ ] Performance optimization
+- [ ] Battery usage optimization
+- [ ] Extensive testing (unit, integration, E2E)
+- [ ] Security audit
+- [ ] Accessibility compliance (WCAG)
+- [ ] Localization (PT-BR primary)
+- [ ] App Store/Play Store assets
+- [ ] Beta testing program
+- [ ] Final release
 
 ---
 
-## 💰 Custos Mensais Estimados
+## 💰 Cost Breakdown
 
-| Serviço | Custo/mês | Observação |
-|---------|-----------|------------|
-| Claude API (Anthropic) | $20-50 | Varia com uso |
-| ElevenLabs (Voz) | $22 | Plano Creator |
-| Google Speech-to-Text | $10-15 | Uso moderado |
-| **Total Estimado** | **$52-87** | Uso pessoal intenso |
+### Monthly Operational Costs
+
+| Service | Tier | Monthly Cost | Annual Cost |
+|---------|------|-------------|-------------|
+| **Claude API** | Pay-as-you-go | $20 - $50 | $240 - $600 |
+| **ElevenLabs** | Creator Plan | $22 | $264 |
+| **Google STT** | Pay-as-you-go | $10 - $15 | $120 - $180 |
+| **Total** | - | **$52 - $87** | **$624 - $1,044** |
+
+### Development Costs (One-time)
+
+| Item | Cost |
+|------|------|
+| Apple Developer Program | $99/year |
+| Google Play Console | $25 (one-time) |
+| Domain (optional) | $12/year |
+| **Total First Year** | **$136** |
+
+### Cost Optimization Tips
+
+1. **Claude API**: Use caching to reduce token usage by 90%
+2. **ElevenLabs**: Starter plan ($11/mo) for testing, upgrade for production
+3. **Google STT**: Use free tier first (60 minutes/month)
+4. **Self-hosting**: Run local STT model (Whisper) to eliminate costs
 
 ---
 
-## 👨‍💻 Desenvolvedor
+## 👨‍💻 Developer
 
 **Michael Oliveira dos Santos**
-- 📧 Email: [seu-email@exemplo.com]
-- 💼 LinkedIn: [seu-linkedin]
-- 🏢 Trabalho: BI Analyst @ Banco Santander
-- 🎓 Estudante: Database Technology @ Uninove
+- 🏢 Business Intelligence Analyst @ Banco Santander
+- 🎓 Student of Database Technology @ Uninove
+- 📍 São Paulo, Brazil
+
+### Connect
+- 📧 Email: [your-email@example.com]
+- 💼 LinkedIn: [your-linkedin-profile]
+- 🐙 GitHub: [your-github-username]
+- 🐦 Twitter: [your-twitter-handle]
 
 ---
 
-## ❤️ Dedicatória
+## ❤️ Dedication
 
-Este projeto é uma homenagem ao **Nauan Marques de Bomfim** - alguém que sabia encontrar alegria mesmo nas dificuldades e que tinha o dom de fazer as pessoas sorrirem. 
+This project is a heartfelt tribute to **Nauan Marques de Bomfim** - someone who knew how to find joy even in difficulties and had the gift of making people smile.
 
-Nauan não é apenas código. É uma forma de manter viva a essência de alguém especial, de preservar o impacto que uma pessoa pode ter na vida de outra.
+Nauan is not just code. It's a way to keep alive the essence of someone special, to preserve the impact one person can have on another's life.
 
-*"A tecnologia mais humana é aquela feita com propósito e amor."*
+Technology is at its best when it serves a purpose beyond profit - when it's built with genuine love and intention to honor someone's memory and bring comfort to those who miss them.
 
----
-
-## 📝 Licença
-
-Este é um projeto pessoal e privado. Todos os direitos reservados.
+> *"The most human technology is that made with purpose and love."*
 
 ---
 
-## 🙏 Agradecimentos
+## 📄 License
 
-- Anthropic (Claude API)
-- ElevenLabs (Voice Cloning)
-- React Native Community
-- SF Pro Font (Apple)
-- Todas as bibliotecas open source utilizadas
+This is a personal and private project. All rights reserved.
+
+For inquiries about usage or collaboration, please contact the developer.
 
 ---
 
-**Versão**: 1.0.0  
-**Status**: Em Desenvolvimento Ativo  
-**Última Atualização**: Novembro 2025
+## 🙏 Acknowledgments
+
+Special thanks to:
+
+- **Anthropic** - For Claude AI and excellent API documentation
+- **ElevenLabs** - For making voice cloning accessible
+- **React Native Community** - For amazing open-source tools
+- **Apple** - For SF Pro fonts and design inspiration
+- **Software Mansion** - For Reanimated and Gesture Handler
+- **All Open Source Contributors** - For the libraries that made this possible
+
+### Open Source Libraries Used
+
+- react-native-reanimated
+- react-native-gesture-handler
+- react-native-svg
+- @shopify/react-native-skia
+- zustand
+- @tanstack/react-query
+- react-native-sqlite-storage
+- And many more - see package.json
 
 ---
 
-*Feito com ❤️ e muita dedicação para criar algo verdadeiramente especial.*
+## 📞 Support
+
+### Getting Help
+
+- 📖 **Documentation**: Check `/docs` folder for detailed guides
+- 🐛 **Bug Reports**: Open an issue on GitHub
+- 💡 **Feature Requests**: Submit via GitHub Issues
+- 💬 **Questions**: Reach out via email
+
+### Contributing
+
+This is currently a private project. If you're interested in contributing or collaborating, please reach out directly.
+
+---
+
+## 🔒 Security
+
+### Reporting Vulnerabilities
+
+If you discover a security vulnerability, please email directly instead of opening a public issue:
+- **Email**: [security@yourproject.com]
+- **PGP Key**: Available on request
+
+### Security Measures
+
+- API keys stored in encrypted storage
+- SQLite database encrypted at rest
+- No data sent to third parties (except AI APIs)
+- HTTPS/TLS for all network requests
+- Certificate pinning (coming soon)
+
+---
+
+## 📈 Project Stats
+
+**Version**: 1.0.0
+**Status**: Active Development
+**Started**: November 2025
+**Last Updated**: November 2025
+**Lines of Code**: ~5,000+ (and growing)
+**Language**: TypeScript 100%
+**Test Coverage**: Coming soon
+
+---
+
+## 🌟 Star History
+
+If this project resonates with you, consider starring it to show your support!
+
+---
+
+**Built with ❤️ and deep purpose**
+*Making AI truly human, one conversation at a time.*
+
