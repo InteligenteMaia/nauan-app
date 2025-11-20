@@ -45,9 +45,11 @@ export const HomeScreen: React.FC = () => {
   // Scroll para última mensagem
   useEffect(() => {
     if (messages.length > 0) {
-      setTimeout(() => {
+      const timer = setTimeout(() => {
         flatListRef.current?.scrollToEnd({ animated: true });
       }, 100);
+
+      return () => clearTimeout(timer);
     }
   }, [messages]);
   

@@ -126,7 +126,7 @@ export interface CircleState {
 
 // Estatísticas
 export interface Statistics {
-  daysTogther: number;
+  daysTogether: number;
   totalMessages: number;
   totalConversations: number;
   averageResponseTime: number;
