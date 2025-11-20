@@ -74,6 +74,11 @@ export const NauanCircle: React.FC<NauanCircleProps> = ({
       -1,
       false
     );
+
+    return () => {
+      // Cancela animação ao desmontar
+      breatheScale.value = withTiming(1, { duration: 200 });
+    };
   }, []);
   
   // Animação baseada no mood
@@ -88,7 +93,7 @@ export const NauanCircle: React.FC<NauanCircleProps> = ({
         );
         glowOpacity.value = withTiming(0.6, { duration: 300 });
         break;
-        
+
       case NauanMood.SPEAKING:
         // Pulsação rápida
         pulseScale.value = withRepeat(
@@ -101,7 +106,7 @@ export const NauanCircle: React.FC<NauanCircleProps> = ({
         );
         glowOpacity.value = withTiming(0.8, { duration: 300 });
         break;
-        
+
       case NauanMood.EXCITED:
         // Pulsação muito rápida + rotação
         pulseScale.value = withRepeat(
@@ -119,7 +124,7 @@ export const NauanCircle: React.FC<NauanCircleProps> = ({
         );
         glowOpacity.value = withTiming(1, { duration: 300 });
         break;
-        
+
       case NauanMood.ATTENTIVE:
         // Foco suave
         pulseScale.value = withRepeat(
@@ -132,7 +137,7 @@ export const NauanCircle: React.FC<NauanCircleProps> = ({
         );
         glowOpacity.value = withTiming(0.7, { duration: 300 });
         break;
-        
+
       case NauanMood.NOSTALGIC:
         // Movimento lento e melancólico
         rotation.value = withRepeat(
@@ -142,7 +147,7 @@ export const NauanCircle: React.FC<NauanCircleProps> = ({
         );
         glowOpacity.value = withTiming(0.4, { duration: 500 });
         break;
-        
+
       case NauanMood.IDLE:
       default:
         // Reset para estado idle
@@ -151,6 +156,12 @@ export const NauanCircle: React.FC<NauanCircleProps> = ({
         glowOpacity.value = withTiming(0.3, { duration: 300 });
         break;
     }
+
+    // Cleanup ao mudar de mood
+    return () => {
+      rotation.value = withTiming(0, { duration: 300 });
+      pulseScale.value = withTiming(1, { duration: 300 });
+    };
   }, [mood]);
   
   // Animação de ondas ao falar
@@ -168,7 +179,7 @@ export const NauanCircle: React.FC<NauanCircleProps> = ({
         -1,
         false
       );
-      
+
       waveScale2.value = withRepeat(
         withSequence(
           withDelay(333, withTiming(2, { duration: 1000 })),
@@ -177,7 +188,7 @@ export const NauanCircle: React.FC<NauanCircleProps> = ({
         -1,
         false
       );
-      
+
       waveScale3.value = withRepeat(
         withSequence(
           withDelay(666, withTiming(2, { duration: 1000 })),
@@ -191,6 +202,13 @@ export const NauanCircle: React.FC<NauanCircleProps> = ({
       waveScale2.value = withTiming(0, { duration: 300 });
       waveScale3.value = withTiming(0, { duration: 300 });
     }
+
+    // Cleanup ao desmontar ou parar de falar
+    return () => {
+      waveScale1.value = withTiming(0, { duration: 300 });
+      waveScale2.value = withTiming(0, { duration: 300 });
+      waveScale3.value = withTiming(0, { duration: 300 });
+    };
   }, [isSpeaking]);
   
   // Estilos animados
