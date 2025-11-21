@@ -12,6 +12,7 @@
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "noEmit": true,
+    "isolatedModules": true,
     "baseUrl": "./src",
     "paths": {
       "@components/*": ["components/*"],
@@ -25,7 +26,6 @@
       "@assets/*": ["../assets/*"]
     }
   },
-  "extends": "@react-native/typescript-config/tsconfig.json",
-  "include": ["src/**/*"],
+  "include": ["src/**/*", "index.js", "App.tsx"],
   "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"]
 }
