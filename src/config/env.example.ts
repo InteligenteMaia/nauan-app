@@ -11,14 +11,15 @@
 
 export default {
   // Anthropic Claude API
-  ANTHROPIC_API_KEY: 'sk-ant-api03-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
+  // Obtenha em: https://console.anthropic.com
+  ANTHROPIC_API_KEY: '', // Cole sua key aqui (começa com sk-ant-api03-)
   ANTHROPIC_BASE_URL: 'https://api.anthropic.com/v1',
   ANTHROPIC_MODEL: 'claude-sonnet-4-20250514',
 
   // ElevenLabs (Voice Cloning) - Opcional
-  ELEVENLABS_API_KEY: 'your-elevenlabs-api-key-here',
-  ELEVENLABS_VOICE_ID: 'your-voice-id-here',
+  ELEVENLABS_API_KEY: '',
+  ELEVENLABS_VOICE_ID: '',
 
   // Google Cloud Speech-to-Text - Opcional
-  GOOGLE_CLOUD_API_KEY: 'your-google-cloud-api-key-here',
+  GOOGLE_CLOUD_API_KEY: '',
 };
