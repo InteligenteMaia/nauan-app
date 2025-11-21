@@ -16,37 +16,14 @@ import {
 } from '@types';
 
 // Importa configurações de ambiente
-// NOTA: Após instalar react-native-config, descomente a linha abaixo
-// import Config from 'react-native-config';
-
-/**
- * Carrega configurações de ambiente de forma segura
- * TODO: Migrar para react-native-config após instalação
- */
-const getEnvConfig = () => {
-  // TEMPORÁRIO: Use um objeto de configuração local
-  // Em produção, isso deve vir de react-native-config
-  // Para desenvolvimento, crie um arquivo src/config/env.ts com suas keys
-
-  // Tenta importar configuração local (não commitar este arquivo!)
-  let localConfig = {};
-  try {
-    // eslint-disable-next-line @typescript-eslint/no-var-requires
-    localConfig = require('../config/env').default;
-  } catch (error) {
-    console.warn('⚠️ Configurações locais não encontradas. Crie src/config/env.ts');
-  }
-
-  return {
-    ANTHROPIC_API_KEY: localConfig.ANTHROPIC_API_KEY || '',
-    ANTHROPIC_BASE_URL: localConfig.ANTHROPIC_BASE_URL || 'https://api.anthropic.com/v1',
-    MODEL: localConfig.ANTHROPIC_MODEL || 'claude-sonnet-4-20250514',
-  };
-};
+// Importação estática compatível com Expo
+import envConfig from '../config/env';
 
 // Configuração da API
 const API_CONFIG = {
-  ...getEnvConfig(),
+  ANTHROPIC_API_KEY: envConfig.ANTHROPIC_API_KEY || '',
+  ANTHROPIC_BASE_URL: envConfig.ANTHROPIC_BASE_URL || 'https://api.anthropic.com/v1',
+  MODEL: envConfig.ANTHROPIC_MODEL || 'claude-sonnet-4-20250514',
   MAX_TOKENS: 1000,
 };
 
